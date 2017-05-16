@@ -1,0 +1,10 @@
+{
+  "sdk" : {
+    "docusign" : {
+      "integrator_key" : "[SECRET]",
+      "email" : "[SECRET]",
+      "password" : "[SECRET]",
+      "environment" : "[SECRET]"
+    }
+  }
+}

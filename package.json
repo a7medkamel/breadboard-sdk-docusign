@@ -1,0 +1,29 @@
+{
+  "name": "breadboard-sdk-docusign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a7medkamel/breadboard-sdk-docusign.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a7medkamel/breadboard-sdk-docusign/issues"
+  },
+  "homepage": "https://github.com/a7medkamel/breadboard-sdk-docusign#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "config": "^1.26.1",
+    "docusign-esign": "^3.0.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
+  }
+}

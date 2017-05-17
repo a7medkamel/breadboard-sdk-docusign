@@ -1,6 +1,6 @@
 var assert    = require('chai').should()
   , config    = require('config')
-  , DocuSign  = require('../index')
+  , DocuSign  = require('../lib/index')
   ;
 
 describe('docusign', () => {

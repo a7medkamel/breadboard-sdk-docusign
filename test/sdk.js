@@ -1,7 +1,7 @@
 var assert    = require('chai').should()
   , config    = require('config')
   , DocuSign  = require('../lib/index')
-  , sdk       = require('../index').sdk.docusign
+  , sdk       = require('../index').sdk().docusign
   ;
 
 describe('docusign', () => {

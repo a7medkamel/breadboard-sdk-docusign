@@ -13,7 +13,7 @@ let proxy = {
 
     let ds = obj.$;
     if (!ds) {
-      ds = obj.$ = new DocuSign(config.get('sdk.docusign'));
+      ds = obj.$ = new DocuSign();
     }
 
     if (prop == 'login') {
@@ -39,5 +39,5 @@ class SDK {
 }
 
 module.exports = {
-  sdk : (...args) => new SDK(...args);
+  sdk : (...args) => new SDK(...args)
 }

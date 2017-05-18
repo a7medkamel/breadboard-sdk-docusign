@@ -5,8 +5,8 @@ var assert    = require('chai').should()
 
 describe('docusign', () => {
   describe('login', () => {
-    it('returns account info', (done) => {
-      let ds = new DocuSign(config.get('sdk.docusign'));
+    it('should return account info', (done) => {
+      let ds = new DocuSign();
 
       ds
         .login()

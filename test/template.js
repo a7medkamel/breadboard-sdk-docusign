@@ -6,7 +6,7 @@ var assert    = require('chai').should()
 describe('docusign', () => {
   describe('template', () => {
     it('should send without errors', (done) => {
-      let ds = new DocuSign(config.get('sdk.docusign'));
+      let ds = new DocuSign();
 
       let payload =
       {
